@@ -1,0 +1,300 @@
+﻿@model RoadMaintainSys.UI.Models.TableMaintainViewModel
+
+@{
+    ViewData["Title"] = "日常保养维护表提交";
+    Layout = "~/Views/Shared/_Layout3.cshtml";
+}
+
+@section UserName{
+    欢迎您:@ViewBag.UserName
+}
+
+<h1>日常保养维护表提交</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="SubmitMaintainTable">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <div class="item-text">
+                    <h4>路基:&emsp;(基本分:12)</h4>
+                    <hr/>
+                    <p>
+                        1、整修路肩、边坡，修剪路肩草、分隔带草木，清除杂物，保持路容整洁;
+                    </p>
+                    <p>
+                        2、疏通边沟、截水沟、上下边坡平台水沟、跌水槽、集水井，保持排水系统畅通;
+                    </p>
+                    <p>
+                        3、清除挡土墙、边坡、排水系统的杂物及小溜方、清理及修复沉降缝，清理SNS挂网内的危石浮石及网片修补、疏通泄水孔，处理松动石块，清理碎落台等;
+                    </p>
+                    <p>
+                        4、路基构造物、排水系统等小面积损坏应及时修复完成。
+                    </p>
+                    <h4>扣分标准:</h4>
+                    <p>
+                        每发现一处不符合要求，扣0.5分，每一小项最多扣3分。扣完为止。
+                    </p>
+                </div>
+                <label asp-for="Reason1" class="control-label"></label>
+                <input asp-for="Reason1" class="form-control" />
+                <span asp-validation-for="Reason1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                
+                <label asp-for="FinalScore1" class="control-label"></label>
+                <input asp-for="FinalScore1" class="form-control" />
+                <span asp-validation-for="FinalScore1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                
+                <label asp-for="Remark1" class="control-label"></label>
+                <input asp-for="Remark1" class="form-control" />
+                <span asp-validation-for="Remark1" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <div class="item-text">
+                    <h4>路面:&emsp;(基本分:12)</h4>
+                    <hr/>
+                    <p>
+                        1、清扫路面泥土、杂物，保持路面整洁;
+                    </p>
+                    <p>
+                        2、处治泛油、松散、路面坑槽、裂缝、车辙拥包等轻微病害;
+                    </p>
+                    <p>
+                        3、处治路面积水、积雪、积冰、积沙;撒防滑料、融雪剂，维持交通; 
+                    </p>
+                    <p>
+                        4、水泥混凝土路面接缝养护、断角修补等。
+                    </p>
+                    <h4>扣分标准:</h4>
+                    <p>
+                        每发现一处不符合要求，扣0.5分，每一小项最多扣3分。扣完为止。
+                    </p>
+                </div>
+                <label asp-for="Reason2" class="control-label"></label>
+                <input asp-for="Reason2" class="form-control" />
+                <span asp-validation-for="Reason2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                
+                <label asp-for="FinalScore2" class="control-label"></label>
+                <input asp-for="FinalScore2" class="form-control" />
+                <span asp-validation-for="FinalScore2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                
+                <label asp-for="Remark2" class="control-label"></label>
+                <input asp-for="Remark2" class="form-control" />
+                <span asp-validation-for="Remark2" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <div class="item-text">
+                    <h4>桥梁:&emsp;(基本分:10)</h4>
+                    <hr/>
+                    <p>
+                        1、清除桥面污泥、积雪、杂物，保持桥面清洁，疏通泄水孔。
+                    </p>
+                    <p>
+                        2、支座清洁与维护、加润滑油、栏杆清洁、刷新。
+                    </p>
+                    <p>
+                        3、桥涵伸缩缝的清洁与维护。 
+                    </p>
+                    <p>
+                        4、桥头锥坡、护坡以及截水坝的维护和修复。
+                    </p>
+                    <p>
+                        5、疏导桥下河槽、清理桥下占用空间，定期清除杂草、清除储藏堆物等;
+                    </p>
+                    <p>
+                        6、检查通道保持畅通整洁。
+                    </p>
+                    <p>
+                        7、桥面铺装层、人行道及栏杆、桥头搭板等出现损坏及时修复，桥头跳车及时处治。
+                    </p>
+                    <h4>扣分标准:</h4>
+                    <p>
+                        每发现一处不符合要求，扣0.5分，每一小项最多扣1.5分。扣完为止。
+                    </p>
+                </div>
+                <label asp-for="Reason3" class="control-label"></label>
+                <input asp-for="Reason3" class="form-control" />
+                <span asp-validation-for="Reason3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FinalScore3" class="control-label"></label>
+                <input asp-for="FinalScore3" class="form-control" />
+                <span asp-validation-for="FinalScore3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Remark3" class="control-label"></label>
+                <input asp-for="Remark3" class="form-control" />
+                <span asp-validation-for="Remark3" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <div class="item-text">
+                    <h4>涵洞:&emsp;(基本分:3)</h4>
+                    <hr/>
+                    <p>
+                        1、涵洞通道、窨井、出口跌水槽等的清理、维修。
+                    </p>
+                    <p>
+                        2、涵帽刷漆、清洗。
+                    </p>
+                    <h4>扣分标准:</h4>
+                    <p>
+                        每发现一处不符合要求，扣0.5分，每一小项最多扣1.5分。扣完为止。
+                    </p>
+                </div>
+                <label asp-for="Reason4" class="control-label"></label>
+                <input asp-for="Reason4" class="form-control" />
+                <span asp-validation-for="Reason4" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FinalScore4" class="control-label"></label>
+                <input asp-for="FinalScore4" class="form-control" />
+                <span asp-validation-for="FinalScore4" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Remark4" class="control-label"></label>
+                <input asp-for="Remark4" class="form-control" />
+                <span asp-validation-for="Remark4" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <div class="item-text">
+                    <h4>隧道:&emsp;(基本分:3)</h4>
+                    <hr/>
+                    <p>
+                        1、清除隧道内污泥、杂物、冰雪，保持清洁; 
+                    </p>
+                    <p>
+                        2、疏通泄水孔、排水沟、截水沟，保持排水畅通;
+                    </p>
+                    <p>
+                        3、隧道内路面、衬砌、洞口、洞身等破损维护，锥坡、护坡的维护;  
+                    </p>
+                    <p>
+                        4、清除隧道口碎落岩石。
+                    </p>
+                    <p>
+                        5、清除消防水池淤泥、保证水池正常蓄水、水管维护;消防设施的维护、消防液定期更换，
+                    </p>
+                    <p>
+                        6、灯具、通风设施及机电线路检查保养。
+                    </p>
+                    <p>
+                        7、隧道洞口及时刷新，反光设施清洗，标线刷新。
+                    </p>
+                    <p>
+                        8、隧道洞口检查通道、机房检查保养、隧道内检修通道维护。
+                    </p>
+                    <h4>扣分标准:</h4>
+                    <p>
+                        每发现一处不符合要求，扣0.5分。扣完为止。
+                    </p>
+                </div>
+                <label asp-for="Reason5" class="control-label"></label>
+                <input asp-for="Reason5" class="form-control" />
+                <span asp-validation-for="Reason5" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FinalScore5" class="control-label"></label>
+                <input asp-for="FinalScore5" class="form-control" />
+                <span asp-validation-for="FinalScore5" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Remark5" class="control-label"></label>
+                <input asp-for="Remark5" class="form-control" />
+                <span asp-validation-for="Remark5" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <div class="item-text">
+                    <h4>交通工程及沿线设施:&emsp;(基本分:8)</h4>
+                    <hr/>
+                    <p>
+                        1、对混凝土护栏、轮廓标、界牌、百米桩、里程牌、活动栅栏、示警标柱等的清洗、刷新或修理维护。 
+                    </p>
+                    <p>
+                        2、标志牌清洗、维护，标线的清洁。
+                    </p>
+                    <p>
+                        3、标志牌遮挡物的清除。  
+                    </p>
+                    <p>
+                        4、路面标线的局部补画。
+                    </p>
+                    <h4>扣分标准:</h4>
+                    <p>
+                        每发现一处不符合要求，扣0.5分，每一小项最多扣2分。扣完为止。
+                    </p>
+                </div>
+                <label asp-for="Reason6" class="control-label"></label>
+                <input asp-for="Reason6" class="form-control" />
+                <span asp-validation-for="Reason6" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FinalScore6" class="control-label"></label>
+                <input asp-for="FinalScore6" class="form-control" />
+                <span asp-validation-for="FinalScore6" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Remark6" class="control-label"></label>
+                <input asp-for="Remark6" class="form-control" />
+                <span asp-validation-for="Remark6" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <div class="item-text">
+                    <h4>公路绿化:&emsp;(基本分:2)</h4>
+                    <hr/>
+                    <p>
+                        1、对绿化进行修剪、整枝、扶正。 
+                    </p>
+                    <p>
+                        2、冬季路树刷白等。
+                    </p>
+                    <h4>扣分标准:</h4>
+                    <p>
+                        每发现一处不符合要求，扣0.5分。扣完为止。
+                    </p>
+                </div>
+                <label asp-for="Reason7" class="control-label"></label>
+                <input asp-for="Reason7" class="form-control" />
+                <span asp-validation-for="Reason7" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FinalScore7" class="control-label"></label>
+                <input asp-for="FinalScore7" class="form-control" />
+                <span asp-validation-for="FinalScore7" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Remark7" class="control-label"></label>
+                <input asp-for="Remark7" class="form-control" />
+                <span asp-validation-for="Remark7" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <input type="submit" value="提交" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">返回首页</a>
+</div>
+
+@section Scripts {
+    @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
+}

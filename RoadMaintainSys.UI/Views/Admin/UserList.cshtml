@@ -1,0 +1,164 @@
+﻿@model IEnumerable<RoadMaintainSys.Entities.User>
+
+@{
+    ViewData["Title"] = "用户列表";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+@section AdminName{
+    欢迎您:@ViewBag.AdminName
+}
+<h1>用户列表</h1>
+<hr/>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>
+                编号:
+            </th>
+            <th>
+                用户账号:
+            </th>
+            <th>
+                用户名:
+            </th>
+            <th>
+                创建时间:
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreateTime)
+                </td>
+                <td style="text-align:center">
+                    @Html.ActionLink("查看", "UserDetail", new { id=item.Id }) |
+                    @Html.ActionLink("删除", "RemoveUser", new {  id=item.Id  })
+                </td>
+            </tr>
+        }
+    </tbody>
+
+    <tfoot class="pager">
+        <tr>
+            <td colspan="12">
+                <ul class="pagerlist">
+                    @if (ViewBag.PageCount <= 7)//实际页码数小于等于可容纳的总页码数
+                    {
+                        for (int i = 1; i <= ViewBag.PageCount; i++)
+                        {
+                            <li>
+                                <a href="/Admin/UserList/?pageIndex=@(i-1)">@i</a>
+                            </li>
+                        }
+                    }
+                    else//实际页码数大于可容纳的总页码数
+                    {
+                        if (ViewBag.PageIndex <= 7 / 2)
+                        {
+                            for (int i = 1; i <= 7; i++)
+                            {
+                                if (i == ViewBag.PageIndex + 1)
+                                {
+                                    <li>
+                                        <a href="#" style="color: red">@i</a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li>
+                                        <a href="/Admin/UserList/?pageIndex=@(i - 1)">@i</a>
+                                    </li>
+                                }
+                            }
+                        }
+                        else if ((ViewBag.PageCount - ViewBag.PageIndex - 1) <= 7 / 2)
+                        {
+                            for (int i = ViewBag.PageCount - 6; i <= ViewBag.PageCount; i++)
+                            {
+                                if (i == ViewBag.PageIndex + 1)
+                                {
+                                    <li>
+                                        <a href="#" style="color: red">@i</a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li>
+                                        <a href="/Admin/UserList/?pageIndex=@(i - 1)">@i</a>
+                                    </li>
+                                }
+                            }
+                        }
+                        else
+                        {
+                            for (int i = ViewBag.PageIndex - 7 / 2 + 1; i <= ViewBag.PageIndex + 7 / 2 + 1; i++)
+                            {
+                                if (i == ViewBag.PageIndex + 1)
+                                {
+                                    <li>
+                                        <a href="#" style="color: red">@i</a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li>
+                                        <a href="/Admin/UserList/?pageIndex=@(i - 1)">@i</a>
+                                    </li>
+                                }
+                            }
+                        }
+                    }
+                </ul>
+            </td>
+        </tr>
+    </tfoot>
+</table>
+<p style="position:absolute;bottom:50px;">
+    <a asp-action="AddUser">添加新用户</a>
+</p>
+@section headers
+{
+<style>
+    .pager {
+        position: absolute;
+        left: 45%;
+        bottom: 100px;
+    }
+
+    .pagerlist {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0;
+        padding: 3px;
+        list-style-type: none;
+        color: azure;
+    }
+
+        .pagerlist li {
+            margin-left: 5px;
+            margin-right: 5px;
+            font-size: 20px;
+        }
+
+            .pagerlist li a:hover {
+                color: lightgreen;
+            }
+
+</style>
+}

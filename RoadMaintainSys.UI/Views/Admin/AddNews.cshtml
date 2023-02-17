@@ -1,0 +1,44 @@
+﻿@model RoadMaintainSys.UI.Models.AddNewsViewModel
+
+@{
+    ViewData["Title"] = "新闻发布";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+@section AdminName{
+    欢迎您:@ViewBag.AdminName
+}
+
+<h1>新闻发布</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddNews">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Content" class="control-label"></label>
+                <textarea asp-for="Content" class="form-control" rows="15" cols="15" wrap="hard" style="resize: none;">
+
+                </textarea>
+                <span asp-validation-for="Content" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <input type="submit" value="发布" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<p style="position:absolute;bottom:50px;">
+   <a asp-action="NewsList">新闻列表</a>
+</p>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

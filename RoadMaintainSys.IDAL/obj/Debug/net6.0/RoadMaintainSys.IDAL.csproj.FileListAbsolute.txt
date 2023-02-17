@@ -1,0 +1,45 @@
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\bin\Debug\net6.0\RoadMaintainSys.IDAL.deps.json
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\bin\Debug\net6.0\RoadMaintainSys.IDAL.dll
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\bin\Debug\net6.0\ref\RoadMaintainSys.IDAL.dll
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\bin\Debug\net6.0\RoadMaintainSys.IDAL.pdb
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\bin\Debug\net6.0\RoadMaintainSys.Entities.dll
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\bin\Debug\net6.0\RoadMaintainSys.Entities.pdb
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\obj\Debug\net6.0\RoadMaintainSys.IDAL.csproj.AssemblyReference.cache
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\obj\Debug\net6.0\RoadMaintainSys.IDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\obj\Debug\net6.0\RoadMaintainSys.IDAL.AssemblyInfoInputs.cache
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\obj\Debug\net6.0\RoadMaintainSys.IDAL.AssemblyInfo.cs
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\obj\Debug\net6.0\RoadMaintainSys.IDAL.csproj.CoreCompileInputs.cache
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\obj\Debug\net6.0\RoadMaintainSys.IDAL.csproj.CopyComplete
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\obj\Debug\net6.0\RoadMaintainSys.IDAL.dll
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\obj\Debug\net6.0\ref\RoadMaintainSys.IDAL.dll
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\obj\Debug\net6.0\RoadMaintainSys.IDAL.pdb
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IDAL\bin\Debug\net6.0\RoadMaintainSys.IDAL.deps.json
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IDAL\bin\Debug\net6.0\RoadMaintainSys.IDAL.dll
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IDAL\bin\Debug\net6.0\ref\RoadMaintainSys.IDAL.dll
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IDAL\bin\Debug\net6.0\RoadMaintainSys.IDAL.pdb
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IDAL\bin\Debug\net6.0\RoadMaintainSys.Entities.dll
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IDAL\bin\Debug\net6.0\RoadMaintainSys.Entities.pdb
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IDAL\obj\Debug\net6.0\RoadMaintainSys.IDAL.csproj.AssemblyReference.cache
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IDAL\obj\Debug\net6.0\RoadMaintainSys.IDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IDAL\obj\Debug\net6.0\RoadMaintainSys.IDAL.AssemblyInfoInputs.cache
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IDAL\obj\Debug\net6.0\RoadMaintainSys.IDAL.AssemblyInfo.cs
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IDAL\obj\Debug\net6.0\RoadMaintainSys.IDAL.csproj.CoreCompileInputs.cache
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IDAL\obj\Debug\net6.0\RoadMaintainSys.IDAL.csproj.CopyComplete
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IDAL\obj\Debug\net6.0\RoadMaintainSys.IDAL.dll
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IDAL\obj\Debug\net6.0\ref\RoadMaintainSys.IDAL.dll
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IDAL\obj\Debug\net6.0\RoadMaintainSys.IDAL.pdb
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\bin\Debug\net6.0\RoadMaintainSys.IDAL.deps.json
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\bin\Debug\net6.0\RoadMaintainSys.IDAL.dll
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\bin\Debug\net6.0\ref\RoadMaintainSys.IDAL.dll
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\bin\Debug\net6.0\RoadMaintainSys.IDAL.pdb
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\bin\Debug\net6.0\RoadMaintainSys.Entities.dll
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\bin\Debug\net6.0\RoadMaintainSys.Entities.pdb
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\obj\Debug\net6.0\RoadMaintainSys.IDAL.csproj.AssemblyReference.cache
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\obj\Debug\net6.0\RoadMaintainSys.IDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\obj\Debug\net6.0\RoadMaintainSys.IDAL.AssemblyInfoInputs.cache
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\obj\Debug\net6.0\RoadMaintainSys.IDAL.AssemblyInfo.cs
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\obj\Debug\net6.0\RoadMaintainSys.IDAL.csproj.CoreCompileInputs.cache
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\obj\Debug\net6.0\RoadMaintainSys.IDAL.csproj.CopyComplete
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\obj\Debug\net6.0\RoadMaintainSys.IDAL.dll
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\obj\Debug\net6.0\ref\RoadMaintainSys.IDAL.dll
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IDAL\obj\Debug\net6.0\RoadMaintainSys.IDAL.pdb

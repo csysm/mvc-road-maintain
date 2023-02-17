@@ -1,0 +1,55 @@
+﻿@using RoadMaintainSys.UI.Utility
+@model IEnumerable<RoadMaintainSys.Entities.News>
+
+@{
+    ViewData["Title"] = "用户首页";
+    Layout = "~/Views/Shared/_Layout3.cshtml";
+}
+@section UserName{
+    欢迎您:@ViewBag.UserName
+}
+<h1>最近新闻</h1>
+<hr/>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>
+                标题:
+            </th>
+            <th>
+                发布者:
+            </th>
+            <th>
+                内容:
+            </th>
+            <th>
+                发布时间:
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Author)
+            </td>
+            <td>
+                @LengthLimit.ContentLenLimit(item.Content,15)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreateTime)
+            </td>
+            <td style="text-align:center">
+                @Html.ActionLink("查看", "NewsDetail",new {  id=item.Id  }) 
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<p style="position:absolute;bottom:50px;">
+    <a asp-action="NewsList">查看更多</a>
+</p>

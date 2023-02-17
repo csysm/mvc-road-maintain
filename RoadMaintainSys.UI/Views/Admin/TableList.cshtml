@@ -1,0 +1,168 @@
+﻿@model IEnumerable<RoadMaintainSys.Entities.Table>
+
+@{
+    ViewData["Title"] = "养护信息列表";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+@section AdminName{
+    欢迎您:@ViewBag.AdminName
+}
+
+<h1>养护信息列表</h1>
+<hr />
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>
+                编号:
+            </th>
+            <th>
+                表类型名称:
+            </th>
+            <th>
+                提交人:
+            </th>
+            <th>
+                提交时间:
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TableName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Submitter)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreateTime)
+                </td>
+                <td style="text-align:center">
+                    @*@Html.ActionLink("查看", "TableDetails", new { id=item.Id  }) |*@
+                    <a asp-action="TableDetails" asp-route-id=@item.Id asp-route-type=@item.Type>查看</a> |
+                    @*<a asp-action="TableDetails" asp-route-id=@item.Id>修改</a>|*@
+                    <a asp-action="RemoveTable" asp-route-id=@item.Id>删除</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+    <tfoot class="pager">
+        <tr>
+            <td colspan="12">
+                <ul class="pagerlist">
+                    @if (ViewBag.PageCount <= 7)//实际页码数小于等于可容纳的总页码数
+                    {
+                        for (int i = 1; i <= ViewBag.PageCount; i++)
+                        {
+                            <li>
+                                <a href="/Admin/TableList/?pageIndex=@(i-1)">@i</a>
+                            </li>
+                        }
+                    }
+                    else//实际页码数大于可容纳的总页码数
+                    {
+                        if (ViewBag.PageIndex <= 7 / 2)
+                        {
+                            for (int i = 1; i <= 7; i++)
+                            {
+                                if (i == ViewBag.PageIndex + 1)
+                                {
+                                    <li>
+                                        <a href="#" style="color: red">@i</a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li>
+                                        <a href="/Admin/TableList/?pageIndex=@(i - 1)">@i</a>
+                                    </li>
+                                }
+                            }
+                        }
+                        else if ((ViewBag.PageCount - ViewBag.PageIndex - 1) <= 7 / 2)
+                        {
+                            for (int i = ViewBag.PageCount - 6; i <= ViewBag.PageCount; i++)
+                            {
+                                if (i == ViewBag.PageIndex + 1)
+                                {
+                                    <li>
+                                        <a href="#" style="color: red">@i</a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li>
+                                        <a href="/Admin/TableList/?pageIndex=@(i - 1)">@i</a>
+                                    </li>
+                                }
+                            }
+                        }
+                        else
+                        {
+                            for (int i = ViewBag.PageIndex - 7 / 2 + 1; i <= ViewBag.PageIndex + 7 / 2 + 1; i++)
+                            {
+                                if (i == ViewBag.PageIndex + 1)
+                                {
+                                    <li>
+                                        <a href="#" style="color: red">@i</a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li>
+                                        <a href="/Admin/TableList/?pageIndex=@(i - 1)">@i</a>
+                                    </li>
+                                }
+                            }
+                        }
+                    }
+                </ul>
+            </td>
+        </tr>
+    </tfoot>
+</table>
+<p style="position:absolute;bottom:50px;">
+    <a asp-controller="Admin" asp-action="ExportExcel" asp-route-pageIndex=@ViewBag.PageIndex>导出Excel</a>
+</p>
+
+
+@section headers
+{
+<style>
+    .pager {
+        position: absolute;
+        left: 45%;
+        bottom: 100px;
+    }
+
+    .pagerlist {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0;
+        padding: 3px;
+        list-style-type: none;
+        
+    }
+
+        .pagerlist li {
+            margin-left: 5px;
+            margin-right: 5px;
+            font-size: 20px;
+        }
+
+            .pagerlist li a:hover {
+                color: lightgreen;
+            }
+
+</style>
+}

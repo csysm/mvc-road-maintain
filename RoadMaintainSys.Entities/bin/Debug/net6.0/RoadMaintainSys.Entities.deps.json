@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "RoadMaintainSys.Entities/1.0.0": {
+        "runtime": {
+          "RoadMaintainSys.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RoadMaintainSys.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

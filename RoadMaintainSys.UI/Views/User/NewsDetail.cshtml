@@ -1,0 +1,46 @@
+﻿@model RoadMaintainSys.Entities.News
+
+@{
+    ViewData["Title"] = "新闻内容";
+    Layout = "~/Views/Shared/_Layout3.cshtml";
+}
+@section UserName{
+    欢迎您:@ViewBag.UserName
+}
+<h1>新闻内容</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            标题:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt class = "col-sm-2">
+            发布者:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Author)
+        </dd>
+        <dt class = "col-sm-2">
+           内容:
+        </dt>
+        <dd class = "col-sm-10">
+             <pre style="white-space:pre-line;font-family:'Cascadia Code','Microsoft YaHei';font-size:15px;">
+                @Html.DisplayFor(model => model.Content)
+            </pre>
+        </dd>
+        <dt class = "col-sm-2">
+            发布时间:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CreateTime)
+        </dd>
+    </dl>
+</div>
+
+<p style="position:absolute;bottom:50px;">
+    <a asp-action="NewsList">返回新闻列表</a>
+</p>

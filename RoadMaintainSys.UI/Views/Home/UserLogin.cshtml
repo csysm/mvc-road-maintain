@@ -1,0 +1,45 @@
+﻿@model RoadMaintainSys.UI.Models.UserLoginViewModel
+
+@{
+    ViewData["Title"] = "用户登录";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>用户登录</h1>
+
+<hr />
+<div class="row form-signin">
+    <div class="col-md-12">
+        <form asp-action="UserLogin">
+            <img class="mb-4 w-100" src="~/img/people-fill.svg" alt="" width="72" height="52"/>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <input asp-for="UserId" class="form-control" placeholder="账号:"/>
+                <span asp-validation-for="UserId" class="text-danger" ></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="Password" class="form-control" type="password" placeholder="密码:" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <input type="submit" value="登录" class="w-100 btn btn-lg btn-primary" />
+            </div>
+        </form>
+        <br/>
+        <div>
+            <a asp-controller="Home" asp-action="Index" style="color: azure">返回首页</a>
+        </div>
+        <p class="mt-5 mb-3 text-muted" style="text-align:center">&copy; 2022–2022</p>
+    </div>
+</div>
+<br />
+
+
+
+
+@section Scripts {
+
+    @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
+}

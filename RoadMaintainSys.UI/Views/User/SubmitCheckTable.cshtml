@@ -1,0 +1,158 @@
+﻿@model RoadMaintainSys.UI.Models.TableCheckViewModel
+
+@{
+    ViewData["Title"] = "日常养护检查表提交";
+    Layout = "~/Views/Shared/_Layout3.cshtml";
+}
+
+@section UserName{
+    欢迎您:@ViewBag.UserName
+}
+
+<h1>日常养护检查表提交</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="SubmitCheckTable">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <div class="item-text">
+                    <h4>公路巡查:&emsp;(基本分:5)</h4>
+                    <hr/>
+                    <p>
+                        1、认真开展公路养护巡查，县级公路机构公路巡查每月不少于一次；基层站点日常巡查每天不少于一次，夜间巡查每周不少于一次。
+                    </p>
+                    <p>
+                        2、巡查记录完整规范，及时记录公路路况信息，发现公路损坏、污染及其他影响正常通行的情况，采取对应处置措施。
+                    </p>
+                    <h4>扣分标准:</h4>
+                    <p>
+                        每发现一处不符合要求，扣0.5分，扣完为止。
+                    </p>
+                    <p>
+                        因巡查记录不满足最低巡查频次的，该项直接得0分。
+                    </p>
+                </div>
+                <label asp-for="Reason1" class="control-label"></label>
+                <input asp-for="Reason1" class="form-control" />
+                <span asp-validation-for="Reason1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FinalScore1" class="control-label"></label>
+                <input asp-for="FinalScore1" class="form-control" />
+                <span asp-validation-for="FinalScore1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Remark1" class="control-label"></label>
+                <input asp-for="Remark1" class="form-control" />
+                <span asp-validation-for="Remark1" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <div class="item-text">
+                    <h4>桥梁经常性检查:&emsp;(基本分:5)</h4>
+                    <hr/>
+                    <p>
+                        以目测为主，检查外表可见的病害和缺陷等，并现场填写桥梁经常性检查记录，且每月不得少于一次。
+                    </p>
+                    
+                    <h4>扣分标准:</h4>
+                    <p>
+                        每发现一处不符合要求，扣0.5分，扣完为止。
+                    </p>
+                    <p>
+                        因巡查记录不满足最低巡查频次的，该项直接得0分。
+                    </p>
+                </div>
+                <label asp-for="Reason2" class="control-label"></label>
+                <input asp-for="Reason2" class="form-control" />
+                <span asp-validation-for="Reason2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FinalScore2" class="control-label"></label>
+                <input asp-for="FinalScore2" class="form-control" />
+                <span asp-validation-for="FinalScore2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Remark2" class="control-label"></label>
+                <input asp-for="Remark2" class="form-control" />
+                <span asp-validation-for="Remark2" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <div class="item-text">
+                    <h4>涵洞经常性检查:&emsp;(基本分:5)</h4>
+                    <hr/>
+                    <p>
+                        以目测为主，检查外表可见的病害和缺陷等，并现场填写涵洞经常性检查记录，且每月不得少于两次。
+                    </p>
+                    
+                    <h4>扣分标准:</h4>
+                    <p>
+                        每发现一处不符合要求，扣0.5分，扣完为止。
+                    </p>
+                    <p>
+                        因巡查记录不满足最低巡查频次的，该项直接得0分。
+                    </p>
+                </div>
+                <label asp-for="Reason3" class="control-label"></label>
+                <input asp-for="Reason3" class="form-control" />
+                <span asp-validation-for="Reason3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FinalScore3" class="control-label"></label>
+                <input asp-for="FinalScore3" class="form-control" />
+                <span asp-validation-for="FinalScore3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Remark3" class="control-label"></label>
+                <input asp-for="Remark3" class="form-control" />
+                <span asp-validation-for="Remark3" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <div class="item-text">
+                    <h4>隧道经常性检查:&emsp;(基本分:5)</h4>
+                    <hr/>
+                    <p>
+                        对土建结构的外观进行一般性检查，具体按照《公路隧道养护技术规范》等有关要求执行
+                    </p>
+                    
+                    <h4>扣分标准:</h4>
+                    <p>
+                        每发现一处不符合要求，扣0.5分，扣完为止。
+                    </p>
+                    <p>
+                        因巡查记录不满足最低巡查频次的，该项直接得0分。
+                    </p>
+                </div>
+                <label asp-for="Reason4" class="control-label"></label>
+                <input asp-for="Reason4" class="form-control" />
+                <span asp-validation-for="Reason4" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FinalScore4" class="control-label"></label>
+                <input asp-for="FinalScore4" class="form-control" />
+                <span asp-validation-for="FinalScore4" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Remark4" class="control-label"></label>
+                <input asp-for="Remark4" class="form-control" />
+                <span asp-validation-for="Remark4" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <input type="submit" value="提交" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div >
+    <a asp-action="Index">返回首页</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

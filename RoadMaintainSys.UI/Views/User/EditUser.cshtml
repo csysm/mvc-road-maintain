@@ -1,0 +1,45 @@
+﻿@model RoadMaintainSys.UI.Models.EditUserViewModel
+
+@{
+    ViewData["Title"] = "修改用户信息";
+    Layout = "~/Views/Shared/_Layout3.cshtml";
+}
+@section UserName{
+    欢迎您:@ViewBag.UserName
+}
+<h1>修改个人信息</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditUser">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NewAdminName" class="control-label"></label>
+                <input asp-for="NewAdminName" class="form-control" />
+                <span asp-validation-for="NewAdminName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CurrentPassword" class="control-label"></label>
+                <input asp-for="CurrentPassword" class="form-control" />
+                <span asp-validation-for="CurrentPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NewPassword" class="control-label"></label>
+                <input asp-for="NewPassword" class="form-control" type="password"/>
+                <span asp-validation-for="NewPassword" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <input type="submit" value="提交" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<p style="position:absolute;bottom:50px;">
+   <a asp-action="Privacy">返回个人信息</a>
+</p>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

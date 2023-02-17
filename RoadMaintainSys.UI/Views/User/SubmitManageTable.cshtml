@@ -1,0 +1,296 @@
+﻿@model RoadMaintainSys.UI.Models.TableManageViewModel
+
+@{
+    ViewData["Title"] = "综合管理表提交";
+    Layout = "~/Views/Shared/_Layout3.cshtml";
+}
+@section UserName{
+    欢迎您:@ViewBag.UserName
+}
+
+<h1>综合管理表提交</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="SubmitManageTable">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <div class="item-text">
+                    <h4>制度建设:&emsp;(基本分:3)</h4>
+                    <hr/>
+                    <p>
+                        按照省局相关要求，结合实际制订了日常养护管理、日常巡查、检查评价、信息报送等管理制度，并得到较好落实。
+                    </p>
+                    <h4>扣分标准:</h4>
+                    <p>
+                        每一项管理制度未制定或省级相关制度未响应的，扣0.5分。扣完为止。
+                    </p>
+                </div>
+                <label asp-for="Reason1" class="control-label"></label>
+                <input asp-for="Reason1" class="form-control" />
+                <span asp-validation-for="Reason1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FinalScore1" class="control-label"></label>
+                <input asp-for="FinalScore1" class="form-control" />
+                <span asp-validation-for="FinalScore1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Remark1" class="control-label"></label>
+                <input asp-for="Remark1" class="form-control" />
+                <span asp-validation-for="Remark1" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <div class="item-text">
+                    <h4>内业管理:&emsp;(基本分:9)</h4>
+                    <hr/>
+                    <p>
+                        1、“三图三表”按规定上墙，原始记录本、技术档案和历史存档齐全，填写规范。 
+                    </p>
+                    <p>
+                        2、公路小修维护及时，计划合理，施工记录齐全，质量验收完整。 
+                    </p>
+                    <p>
+                        3、按照规定做好公路养护信息管理系统、桥梁管理系统信息录入及管理工作。 
+                    </p>
+                    <h4>扣分标准:</h4>
+                    <p>
+                        每发现一处不符合要求的，扣0.5分，每一小项最多扣3分。扣完为止。
+                    </p>
+                </div>
+                <label asp-for="Reason2" class="control-label"></label>
+                <input asp-for="Reason2" class="form-control" />
+                <span asp-validation-for="Reason2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FinalScore2" class="control-label"></label>
+                <input asp-for="FinalScore2" class="form-control" />
+                <span asp-validation-for="FinalScore2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Remark2" class="control-label"></label>
+                <input asp-for="Remark2" class="form-control" />
+                <span asp-validation-for="Remark2" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <div class="item-text">
+                    <h4>养护机械设备管理:&emsp;(基本分:3)</h4>
+                    <hr/>
+                    <p>
+                        1、建立机械设备台账，使用记录完整规范； 
+                    </p>
+                    <p>
+                        2、养护机械设备管护良好，排放整齐有序; 
+                    </p>
+                    <p>
+                        3、加大资金投入，有计划地购置适用的养护机械,提高养护机械化水平。 
+                    </p>
+                    <h4>扣分标准:</h4>
+                    <p>
+                        每发现一处不符合要求的，扣0.5分。扣完为止。在上述评分基础上，
+                        年底对每个县级公路管理机构养护机械资金投入进行核实，当年自行
+                        安排了养护机械设备购置费，每自行投入10万元加1分，该项最多得3分。
+                    </p>
+                </div>
+                <label asp-for="Reason3" class="control-label"></label>
+                <input asp-for="Reason3" class="form-control" />
+                <span asp-validation-for="Reason3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FinalScore3" class="control-label"></label>
+                <input asp-for="FinalScore3" class="form-control" />
+                <span asp-validation-for="FinalScore3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Remark3" class="control-label"></label>
+                <input asp-for="Remark3" class="form-control" />
+                <span asp-validation-for="Remark3" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <div class="item-text">
+                    <h4>站场管理:&emsp;(基本分:3)</h4>
+                    <hr/>
+                    <p>
+                        根据省局有关规定，开展了养护站场标准化建设活动，养护管理站行业标识统一、布局合理，庭院干净整洁。 
+                    </p>
+                    <h4>扣分标准:</h4>
+                    <p>
+                        每发现一处不符合要求的，扣0.5分。扣完为止。
+                    </p>
+                </div>
+                <label asp-for="Reason4" class="control-label"></label>
+                <input asp-for="Reason4" class="form-control" />
+                <span asp-validation-for="Reason4" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FinalScore4" class="control-label"></label>
+                <input asp-for="FinalScore4" class="form-control" />
+                <span asp-validation-for="FinalScore4" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Remark4" class="control-label"></label>
+                <input asp-for="Remark4" class="form-control" />
+                <span asp-validation-for="Remark4" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <div class="item-text">
+                    <h4>养护安全生产:&emsp;(基本分:4)</h4>
+                    <hr/>
+                    <p>
+                        1、养护人员上路进行路面维修和日常养护作业时，必须统一穿（戴）安全标志服（帽），雨天上路巡查排水时，穿标志雨衣； 
+                    </p>
+                    <p>
+                        2、路面养护施工时，按照《公路养护安全作业规程》(JTG H30-2015)摆放安全锥形标（筒）及必要的警示导向标志、险路险桥要设置警示标志。 
+                    </p>
+                    <h4>扣分标准:</h4>
+                    <p>
+                        每发现一处不符合要求的，扣0.4分。扣完为止。因养护不作为,导致官司纠纷、被部、省通报批评、行评代表批评、社会群众投诉，经查实为责任承担者，该项直接得0分。
+                    </p>
+                </div>
+                <label asp-for="Reason5" class="control-label"></label>
+                <input asp-for="Reason5" class="form-control" />
+                <span asp-validation-for="Reason5" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FinalScore5" class="control-label"></label>
+                <input asp-for="FinalScore5" class="form-control" />
+                <span asp-validation-for="FinalScore5" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Remark5" class="control-label"></label>
+                <input asp-for="Remark5" class="form-control" />
+                <span asp-validation-for="Remark5" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <div class="item-text">
+                    <h4>交通情况调查:&emsp;(基本分:3)</h4>
+                    <hr/>
+                    <p>
+                        能够较好地开展辖区内交通情况调查工作，对交调站点及设备维护良好。
+                    </p>
+                    <h4>扣分标准:</h4>
+                    <p>
+                        每发现一处站点及设备维护不到位的，扣1分。扣完为止。
+                    </p>
+                </div>
+                <label asp-for="Reason6" class="control-label"></label>
+                <input asp-for="Reason6" class="form-control" />
+                <span asp-validation-for="Reason6" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FinalScore6" class="control-label"></label>
+                <input asp-for="FinalScore6" class="form-control" />
+                <span asp-validation-for="FinalScore6" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Remark6" class="control-label"></label>
+                <input asp-for="Remark6" class="form-control" />
+                <span asp-validation-for="Remark6" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <div class="item-text">
+                    <h4>信息报送:&emsp;(基本分:1)</h4>
+                    <hr/>
+                    <p>
+                        1、日常养护管理工作资料上报及时、准确；
+                    </p>
+                    <p>
+                        2、路况信息收集、报告和发布制度完善，贯彻实施情况良好，实现多种方式向公众发布和提供路况信息。
+                    </p>
+                    <h4>扣分标准:</h4>
+                    <p>
+                        根据省、市公路管理机构平时掌握情况，结合现场检查情况，按照优得1分、良得0.5分、差得0分进行评分。
+                    </p>
+                </div>
+                <label asp-for="Reason7" class="control-label"></label>
+                <input asp-for="Reason7" class="form-control" />
+                <span asp-validation-for="Reason7" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FinalScore7" class="control-label"></label>
+                <input asp-for="FinalScore7" class="form-control" />
+                <span asp-validation-for="FinalScore7" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Remark7" class="control-label"></label>
+                <input asp-for="Remark7" class="form-control" />
+                <span asp-validation-for="Remark7" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <div class="item-text">
+                    <h4>职工技术培训:&emsp;(基本分:1)</h4>
+                    <hr/>
+                    <p>
+                        县级公路管理部门积极参加省、市州公路部门面向基层养护管理人员组织开展的的各类技术培训、技术交流、技术竞赛活动。
+                    </p>
+                    <h4>扣分标准:</h4>
+                    <p>
+                        根据县级公路管理机构参加各类技术培训活动的情况，按照优1分、良0.5分、差0分进行评分。
+                    </p>
+                </div>
+                <label asp-for="Reason8" class="control-label"></label>
+                <input asp-for="Reason8" class="form-control" />
+                <span asp-validation-for="Reason8" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FinalScore8" class="control-label"></label>
+                <input asp-for="FinalScore8" class="form-control" />
+                <span asp-validation-for="FinalScore8" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Remark8" class="control-label"></label>
+                <input asp-for="Remark8" class="form-control" />
+                <span asp-validation-for="Remark8" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <div class="item-text">
+                    <h4>督办问题整改:&emsp;(基本分:3)</h4>
+                    <hr/>
+                    <p>
+                        检查部、省养护督办项目整改落实情况
+                    </p>
+                    <h4>扣分标准:</h4>
+                    <p>
+                        根据部、省督办通知内容进行检查，限期内未落实的，每一个项目扣1分，扣完为止。
+                    </p>
+                </div>
+                <label asp-for="Reason9" class="control-label"></label>
+                <input asp-for="Reason9" class="form-control" />
+                <span asp-validation-for="Reason9" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FinalScore9" class="control-label"></label>
+                <input asp-for="FinalScore9" class="form-control" />
+                <span asp-validation-for="FinalScore9" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Remark9" class="control-label"></label>
+                <input asp-for="Remark9" class="form-control" />
+                <span asp-validation-for="Remark9" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <input type="submit" value="提交" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">返回首页</a>
+</div>
+
+@section Scripts {
+    @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
+}

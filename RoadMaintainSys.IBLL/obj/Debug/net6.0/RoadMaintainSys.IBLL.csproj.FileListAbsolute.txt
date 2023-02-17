@@ -1,0 +1,45 @@
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\bin\Debug\net6.0\RoadMaintainSys.IBLL.deps.json
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\bin\Debug\net6.0\RoadMaintainSys.IBLL.dll
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\bin\Debug\net6.0\ref\RoadMaintainSys.IBLL.dll
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\bin\Debug\net6.0\RoadMaintainSys.IBLL.pdb
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\obj\Debug\net6.0\RoadMaintainSys.IBLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\obj\Debug\net6.0\RoadMaintainSys.IBLL.AssemblyInfoInputs.cache
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\obj\Debug\net6.0\RoadMaintainSys.IBLL.AssemblyInfo.cs
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\obj\Debug\net6.0\RoadMaintainSys.IBLL.csproj.CoreCompileInputs.cache
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\obj\Debug\net6.0\RoadMaintainSys.IBLL.dll
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\obj\Debug\net6.0\ref\RoadMaintainSys.IBLL.dll
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\obj\Debug\net6.0\RoadMaintainSys.IBLL.pdb
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\bin\Debug\net6.0\RoadMaintainSys.Entities.dll
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\bin\Debug\net6.0\RoadMaintainSys.Entities.pdb
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\obj\Debug\net6.0\RoadMaintainSys.IBLL.csproj.AssemblyReference.cache
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\obj\Debug\net6.0\RoadMaintainSys.IBLL.csproj.CopyComplete
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IBLL\bin\Debug\net6.0\RoadMaintainSys.IBLL.deps.json
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IBLL\bin\Debug\net6.0\RoadMaintainSys.IBLL.dll
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IBLL\bin\Debug\net6.0\ref\RoadMaintainSys.IBLL.dll
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IBLL\bin\Debug\net6.0\RoadMaintainSys.IBLL.pdb
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IBLL\bin\Debug\net6.0\RoadMaintainSys.Entities.dll
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IBLL\bin\Debug\net6.0\RoadMaintainSys.Entities.pdb
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IBLL\obj\Debug\net6.0\RoadMaintainSys.IBLL.csproj.AssemblyReference.cache
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IBLL\obj\Debug\net6.0\RoadMaintainSys.IBLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IBLL\obj\Debug\net6.0\RoadMaintainSys.IBLL.AssemblyInfoInputs.cache
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IBLL\obj\Debug\net6.0\RoadMaintainSys.IBLL.AssemblyInfo.cs
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IBLL\obj\Debug\net6.0\RoadMaintainSys.IBLL.csproj.CoreCompileInputs.cache
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IBLL\obj\Debug\net6.0\RoadMaintainSys.IBLL.csproj.CopyComplete
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IBLL\obj\Debug\net6.0\RoadMaintainSys.IBLL.dll
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IBLL\obj\Debug\net6.0\ref\RoadMaintainSys.IBLL.dll
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.IBLL\obj\Debug\net6.0\RoadMaintainSys.IBLL.pdb
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\bin\Debug\net6.0\RoadMaintainSys.IBLL.deps.json
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\bin\Debug\net6.0\RoadMaintainSys.IBLL.dll
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\bin\Debug\net6.0\ref\RoadMaintainSys.IBLL.dll
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\bin\Debug\net6.0\RoadMaintainSys.IBLL.pdb
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\bin\Debug\net6.0\RoadMaintainSys.Entities.dll
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\bin\Debug\net6.0\RoadMaintainSys.Entities.pdb
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\obj\Debug\net6.0\RoadMaintainSys.IBLL.csproj.AssemblyReference.cache
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\obj\Debug\net6.0\RoadMaintainSys.IBLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\obj\Debug\net6.0\RoadMaintainSys.IBLL.AssemblyInfoInputs.cache
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\obj\Debug\net6.0\RoadMaintainSys.IBLL.AssemblyInfo.cs
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\obj\Debug\net6.0\RoadMaintainSys.IBLL.csproj.CoreCompileInputs.cache
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\obj\Debug\net6.0\RoadMaintainSys.IBLL.csproj.CopyComplete
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\obj\Debug\net6.0\RoadMaintainSys.IBLL.dll
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\obj\Debug\net6.0\ref\RoadMaintainSys.IBLL.dll
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.IBLL\obj\Debug\net6.0\RoadMaintainSys.IBLL.pdb

@@ -1,0 +1,57 @@
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\bin\Debug\net6.0\RoadMaintainSys.DAL.deps.json
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\bin\Debug\net6.0\RoadMaintainSys.DAL.runtimeconfig.json
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\bin\Debug\net6.0\RoadMaintainSys.DAL.dll
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\bin\Debug\net6.0\ref\RoadMaintainSys.DAL.dll
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\bin\Debug\net6.0\RoadMaintainSys.DAL.pdb
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\bin\Debug\net6.0\RoadMaintainSys.Entities.dll
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\bin\Debug\net6.0\RoadMaintainSys.IDAL.dll
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\bin\Debug\net6.0\RoadMaintainSys.Entities.pdb
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\bin\Debug\net6.0\RoadMaintainSys.IDAL.pdb
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\RoadMaintainSys.DAL.csproj.AssemblyReference.cache
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\RoadMaintainSys.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\RoadMaintainSys.DAL.AssemblyInfoInputs.cache
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\RoadMaintainSys.DAL.AssemblyInfo.cs
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\RoadMaintainSys.DAL.csproj.CoreCompileInputs.cache
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\RoadMaintainSys.DAL.csproj.CopyComplete
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\RoadMaintainSys.DAL.dll
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\ref\RoadMaintainSys.DAL.dll
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\RoadMaintainSys.DAL.pdb
+C:\Users\wang\Desktop\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\RoadMaintainSys.DAL.genruntimeconfig.cache
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.DAL\bin\Debug\net6.0\RoadMaintainSys.DAL.deps.json
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.DAL\bin\Debug\net6.0\RoadMaintainSys.DAL.runtimeconfig.json
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.DAL\bin\Debug\net6.0\RoadMaintainSys.DAL.dll
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.DAL\bin\Debug\net6.0\ref\RoadMaintainSys.DAL.dll
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.DAL\bin\Debug\net6.0\RoadMaintainSys.DAL.pdb
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.DAL\bin\Debug\net6.0\RoadMaintainSys.Entities.dll
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.DAL\bin\Debug\net6.0\RoadMaintainSys.IDAL.dll
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.DAL\bin\Debug\net6.0\RoadMaintainSys.Entities.pdb
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.DAL\bin\Debug\net6.0\RoadMaintainSys.IDAL.pdb
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\RoadMaintainSys.DAL.csproj.AssemblyReference.cache
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\RoadMaintainSys.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\RoadMaintainSys.DAL.AssemblyInfoInputs.cache
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\RoadMaintainSys.DAL.AssemblyInfo.cs
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\RoadMaintainSys.DAL.csproj.CoreCompileInputs.cache
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\RoadMaintainSys.DAL.csproj.CopyComplete
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\RoadMaintainSys.DAL.dll
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\ref\RoadMaintainSys.DAL.dll
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\RoadMaintainSys.DAL.pdb
+C:\Users\wang\Desktop\RoadMaintainSys - backup\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\RoadMaintainSys.DAL.genruntimeconfig.cache
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\bin\Debug\net6.0\RoadMaintainSys.DAL.deps.json
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\bin\Debug\net6.0\RoadMaintainSys.DAL.runtimeconfig.json
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\bin\Debug\net6.0\RoadMaintainSys.DAL.dll
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\bin\Debug\net6.0\ref\RoadMaintainSys.DAL.dll
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\bin\Debug\net6.0\RoadMaintainSys.DAL.pdb
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\bin\Debug\net6.0\RoadMaintainSys.Entities.dll
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\bin\Debug\net6.0\RoadMaintainSys.IDAL.dll
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\bin\Debug\net6.0\RoadMaintainSys.Entities.pdb
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\bin\Debug\net6.0\RoadMaintainSys.IDAL.pdb
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\RoadMaintainSys.DAL.csproj.AssemblyReference.cache
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\RoadMaintainSys.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\RoadMaintainSys.DAL.AssemblyInfoInputs.cache
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\RoadMaintainSys.DAL.AssemblyInfo.cs
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\RoadMaintainSys.DAL.csproj.CoreCompileInputs.cache
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\RoadMaintainSys.DAL.csproj.CopyComplete
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\RoadMaintainSys.DAL.dll
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\ref\RoadMaintainSys.DAL.dll
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\RoadMaintainSys.DAL.pdb
+C:\Users\wang\Desktop\.Net Core\.Net6 MVC\项目\RoadMaintainSys\RoadMaintainSys\RoadMaintainSys.DAL\obj\Debug\net6.0\RoadMaintainSys.DAL.genruntimeconfig.cache

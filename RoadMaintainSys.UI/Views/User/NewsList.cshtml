@@ -1,0 +1,163 @@
+﻿@model IEnumerable<RoadMaintainSys.Entities.News>
+@using RoadMaintainSys.UI.Utility
+
+@{
+    ViewData["Title"] = "新闻列表";
+    Layout = "~/Views/Shared/_Layout3.cshtml";
+}
+@section UserName{
+    欢迎您:@ViewBag.UserName
+}
+
+<h1>新闻列表</h1>
+<hr />
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>
+                标题:
+            </th>
+            <th>
+                发布者:
+            </th>
+            <th>
+                内容:
+            </th>
+            <th>
+                发布时间:
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Author)
+            </td>
+            <td>
+                @LengthLimit.ContentLenLimit(item.Content,15)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreateTime)
+            </td>
+            <td style="text-align:center">
+                @Html.ActionLink("查看", "NewsDetail",new {  id=item.Id  }) 
+            </td>
+        </tr>
+}
+    </tbody>
+    <tfoot class="pager">
+        <tr>
+            <td colspan="12">
+                <ul class="pagerlist">
+                    @if (ViewBag.PageCount <= 7)//实际页码数小于等于可容纳的总页码数
+                    {
+                        for (int i = 1; i <= ViewBag.PageCount; i++)
+                        {
+                            <li>
+                                <a href="/User/NewsList/?pageIndex=@(i-1)">@i</a>
+                            </li>
+                        }
+                    }
+                    else//实际页码数大于可容纳的总页码数
+                    {
+                        if (ViewBag.PageIndex <= 7 / 2)
+                        {
+                            for (int i = 1; i <= 7; i++)
+                            {
+                                if (i == ViewBag.PageIndex + 1)
+                                {
+                                    <li>
+                                        <a href="#" style="color: red">@i</a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li>
+                                        <a href="/User/NewsList/?pageIndex=@(i - 1)">@i</a>
+                                    </li>
+                                }
+                            }
+                        }
+                        else if ((ViewBag.PageCount - ViewBag.PageIndex - 1) <= 7 / 2)
+                        {
+                            for (int i = ViewBag.PageCount - 6; i <= ViewBag.PageCount; i++)
+                            {
+                                if (i == ViewBag.PageIndex + 1)
+                                {
+                                    <li>
+                                        <a href="#" style="color: red">@i</a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li>
+                                        <a href="/User/NewsList/?pageIndex=@(i - 1)">@i</a>
+                                    </li>
+                                }
+                            }
+                        }
+                        else
+                        {
+                            for (int i = ViewBag.PageIndex - 7 / 2 + 1; i <= ViewBag.PageIndex + 7 / 2 + 1; i++)
+                            {
+                                if (i == ViewBag.PageIndex + 1)
+                                {
+                                    <li>
+                                        <a href="#" style="color: red">@i</a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li>
+                                        <a href="/User/NewsList/?pageIndex=@(i - 1)">@i</a>
+                                    </li>
+                                }
+                            }
+                        }
+                    }
+                </ul>
+            </td>
+        </tr>
+    </tfoot>
+</table>
+<p style="position:absolute;bottom:50px;">
+    <a asp-action="Index">返回首页</a>
+</p>
+
+@section headers
+{
+<style>
+    .pager {
+        position: absolute;
+        left: 45%;
+        bottom: 100px;
+    }
+
+    .pagerlist {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0;
+        padding: 3px;
+        list-style-type: none;
+        color: azure;
+    }
+
+        .pagerlist li {
+            margin-left: 5px;
+            margin-right: 5px;
+            font-size: 20px;
+        }
+
+            .pagerlist li a:hover {
+                color: lightgreen;
+            }
+
+</style>
+}

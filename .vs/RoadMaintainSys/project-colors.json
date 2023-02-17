@@ -1,0 +1,46 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "155672f7-c8f1-412f-a715-a74a7fa59a2a": {
+      "ProjectGuid": "155672f7-c8f1-412f-a715-a74a7fa59a2a",
+      "DisplayName": "RoadMaintainSys.Entities",
+      "ColorIndex": 0
+    },
+    "9abf853b-b464-4765-97df-8482c54ed25f": {
+      "ProjectGuid": "9abf853b-b464-4765-97df-8482c54ed25f",
+      "DisplayName": "RoadMaintainSys.DAL",
+      "ColorIndex": 1
+    },
+    "16674e0c-a5ab-4180-82d9-63a72d685f57": {
+      "ProjectGuid": "16674e0c-a5ab-4180-82d9-63a72d685f57",
+      "DisplayName": "RoadMaintainSys.UI",
+      "ColorIndex": 2
+    },
+    "ebaa9014-3fc3-4d2b-9176-ab24824c9df7": {
+      "ProjectGuid": "ebaa9014-3fc3-4d2b-9176-ab24824c9df7",
+      "DisplayName": "RoadMaintainSys.IDAL",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    },
+    "6e1753f3-1d32-4e26-b9d6-36693e8bfb8b": {
+      "ProjectGuid": "6e1753f3-1d32-4e26-b9d6-36693e8bfb8b",
+      "DisplayName": "RoadMaintainSys.IBLL",
+      "ColorIndex": 4
+    },
+    "45e5b83e-6b3f-49cd-b41b-4e91dfcf881f": {
+      "ProjectGuid": "45e5b83e-6b3f-49cd-b41b-4e91dfcf881f",
+      "DisplayName": "RoadMaintainSys.BLL",
+      "ColorIndex": 5
+    },
+    "587dd553-f83f-4697-8000-ae1e445a8347": {
+      "ProjectGuid": "587dd553-f83f-4697-8000-ae1e445a8347",
+      "DisplayName": "UtilityClass",
+      "ColorIndex": 6
+    }
+  },
+  "NextColorIndex": 7
+}
